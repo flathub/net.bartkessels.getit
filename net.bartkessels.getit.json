@@ -61,7 +61,7 @@
 				{
 					"type": "git",
 					"tag": "4.0.7",
-					"commit": "49d81b4fa18ad9ae896410bf6a49ee78d04988cb",
+					"commit": "e3ddc954c1f31345925c7053526fef59dba5c002",
 					"url": "https://github.com/bartkessels/getit"
 				}
 			]
