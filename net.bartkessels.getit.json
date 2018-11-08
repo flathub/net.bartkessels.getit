@@ -1,7 +1,7 @@
 {
 	"app-id": "net.bartkessels.getit",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "3.24",
+	"runtime-version": "3.30",
 	"sdk": "org.gnome.Sdk",
 	"command": "getit",
 	"finish-args": [
@@ -14,13 +14,6 @@
 		"--talk-name=ca.desrt.dconf",
 		"--env=DCONF_USER_CONFIG_DIR=.config/dconf"
 	],
-	"build-options": {
-		"cflags": "-O2 -g",
-		"cxxflags": "-O2 -g",
-		"env": {
-			"V": "1"
-		}
-	},
 	"cleanup": [
 		"/include",
 		"/lib/pkgconfig",
@@ -38,25 +31,25 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://git.gnome.org/browse/gtksourceview/snapshot/gtksourceview-3.24.6.tar.xz",
-					"sha256": "f96e7de24e4fffe08a73f76d8b6ea7f878f122509ee869ab1fbf3c64ee29fb3b"
+					"url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.9.tar.xz",
+					"sha256": "699d76a453e6a3d3331906346e3dbfa25f2cbc9ec090e46635e9c6bb595e07c2"
 				}
 			]
 		},
 		{
 			"name": "json-glib",
+			"buildsystem": "meson",
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://gitlab.gnome.org/GNOME/json-glib/repository/1.4.2/archive.tar.gz",
-					"sha256": "be83ab7eb09b0125be01e1a38bb0bc6073aa23d1a60bde1b6f4b7d9194649a89"
+					"url": "https://download.gnome.org/sources/json-glib/1.4/json-glib-1.4.4.tar.xz",
+					"sha256": "720c5f4379513dc11fd97dc75336eb0c0d3338c53128044d9fabec4374f4bc47"
 				}
 			]
 		},
 		{
 			"name": "getit",
 			"buildsystem": "meson",
-			"builddir": true,
 			"sources": [
 				{
 					"type": "git",
