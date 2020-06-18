@@ -54,7 +54,7 @@
 				{
 					"type": "git",
 					"tag": "4.0.10",
-					"commit": "3e289cd18798b77ff5ac83482dbf99c328d33bff",
+					"commit": "b81c006b079c88a90bdddeb4eac0b419cf221bc2",
 					"url": "https://github.com/bartkessels/getit"
 				}
 			]
