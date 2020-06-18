@@ -1,7 +1,7 @@
 {
 	"app-id": "net.bartkessels.getit",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "3.32",
+	"runtime-version": "3.36",
 	"sdk": "org.gnome.Sdk",
 	"command": "getit",
 	"finish-args": [
@@ -53,8 +53,8 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "4.0.9",
-					"commit": "c00ebfef57571052416164d3965b13b07c8c0da8",
+					"tag": "4.0.10",
+					"commit": "b81c006b079c88a90bdddeb4eac0b419cf221bc2",
 					"url": "https://github.com/bartkessels/getit"
 				}
 			]
