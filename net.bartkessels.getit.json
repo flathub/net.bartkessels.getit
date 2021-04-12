@@ -1,18 +1,14 @@
 {
 	"app-id": "net.bartkessels.getit",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "3.36",
+	"runtime-version": "40",
 	"sdk": "org.gnome.Sdk",
 	"command": "getit",
 	"finish-args": [
 		"--socket=x11",
 		"--share=ipc",
 		"--socket=wayland",
-		"--share=network",
-		"--filesystem=xdg-run/dconf",
-		"--filesystem=~/.config/dconf:ro",
-		"--talk-name=ca.desrt.dconf",
-		"--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+		"--share=network"
 	],
 	"cleanup": [
 		"/include",
@@ -33,17 +29,6 @@
 					"type": "archive",
 					"url": "https://download.gnome.org/sources/gtksourceview/3.24/gtksourceview-3.24.9.tar.xz",
 					"sha256": "699d76a453e6a3d3331906346e3dbfa25f2cbc9ec090e46635e9c6bb595e07c2"
-				}
-			]
-		},
-		{
-			"name": "json-glib",
-			"buildsystem": "meson",
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://download.gnome.org/sources/json-glib/1.4/json-glib-1.4.4.tar.xz",
-					"sha256": "720c5f4379513dc11fd97dc75336eb0c0d3338c53128044d9fabec4374f4bc47"
 				}
 			]
 		},
