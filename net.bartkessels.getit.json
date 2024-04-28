@@ -1,7 +1,7 @@
 {
 	"app-id": "net.bartkessels.getit",
 	"runtime": "org.gnome.Platform",
-	"runtime-version": "42",
+	"runtime-version": "46",
 	"sdk": "org.gnome.Sdk",
 	"command": "getit",
 	"finish-args": [
@@ -23,6 +23,7 @@
 		"*.a"
 	],
 	"modules": [
+		"shared-modules/libsoup/libsoup-2.4.json",
 		{
 			"name": "gtksourceview-3.0",
 			"sources": [
