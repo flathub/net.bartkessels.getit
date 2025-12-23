@@ -48,6 +48,10 @@
 					"tag": "4.0.10",
 					"commit": "b81c006b079c88a90bdddeb4eac0b419cf221bc2",
 					"url": "https://github.com/bartkessels/getit"
+				},
+				{
+					"type": "patch",
+					"path": "patches/fix-appdata.patch"
 				}
 			]
 		}
